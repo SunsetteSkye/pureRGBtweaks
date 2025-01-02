@@ -113,7 +113,7 @@ Moves:
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 30 ; priority move
 	move RAGE,         ATTACK_UP_SIDE_EFFECT,       60, DRAGON,       100, 20
 	move TELEPORT,     TELEPORT_EFFECT,              0, PSYCHIC_TYPE, 100, 20
-	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,       100, GHOST,        100, 10  
+	move NIGHT_SHADE,  PARALYZE_SIDE_EFFECT1,       90, GHOST,        100, 15  
 	move MIMIC,        MIMIC_EFFECT,                 0, NORMAL,       100, 10 ; now uses the mimic'd attack the same turn it's learned
 	move SCREECH,      DEFENSE_DOWN2_EFFECT,         0, NORMAL,        85, 40
 	move DOUBLE_TEAM,  EVASION_UP1_EFFECT,           0, NORMAL,       100, 15
