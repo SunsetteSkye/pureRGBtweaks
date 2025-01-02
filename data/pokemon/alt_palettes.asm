@@ -10,8 +10,8 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_BLACKMON    ; CHARMELEON
 	db PAL_BLACKMON    ; CHARIZARD
 	db PAL_BLUEMON   ; SQUIRTLE
-	db PAL_BLUEMON   ; WARTORTLE
-	db PAL_BLUEMON   ; BLASTOISE
+	db PAL_CYANMON   ; WARTORTLE
+	db PAL_CYANMON   ; BLASTOISE
 	db PAL_BLUEMON  ; CATERPIE
 	db PAL_BLUEMON  ; METAPOD
 	db PAL_0F   ; BUTTERFREE
