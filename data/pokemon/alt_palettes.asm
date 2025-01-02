@@ -113,8 +113,8 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_PURPLEMON   ; LICKITUNG
 	db PAL_GREENMON ; KOFFING
 	db PAL_GREENMON ; WEEZING
-	db PAL_BLACKMON   ; RHYHORN
-	db PAL_BLACKMON   ; RHYDON
+	db PAL_BROWNMON   ; RHYHORN
+	db PAL_BROWNMON   ; RHYDON
 	db PAL_WHITEMON   ; CHANSEY
 	db PAL_GREENMON   ; TANGELA
 	db PAL_GREYMON  ; KANGASKHAN
