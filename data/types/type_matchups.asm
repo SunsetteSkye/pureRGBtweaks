@@ -109,6 +109,5 @@ TypeEffects:
 	db FIRE,         MAGMA,         NO_EFFECT
 	db ICE,	         NORMAL,	NOT_VERY_EFFECTIVE
 	db DRAGON,       FIGHTING, 	NOT_VERY_EFFECTIVE
-	db POISON,       GHOST,		IMMUNE
 	db -1 ; end
 
