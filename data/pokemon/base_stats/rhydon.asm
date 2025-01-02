@@ -1,6 +1,6 @@
 	db DEX_RHYDON ; pokedex id
 
-	db 105, 130, 120,  40,  75
+	db 105, 130, 120,  40,  45
 	;   hp  atk  def  spd  spc
 
 	db MAGMA, ROCK ; type
