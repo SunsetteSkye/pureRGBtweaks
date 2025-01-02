@@ -1224,8 +1224,8 @@ MoltresEvosMoves:
 	db 0
 ; Learnset
 	db 51, FIRE_BLAST
-	db 55, AGILITY
-	db 60, DRAGON_RAGE
+	db 55, GROWTH
+	db 60, WHIRLWIND
 	db 0
 
 ArticunoEvosMoves:
@@ -1233,7 +1233,7 @@ ArticunoEvosMoves:
 	db 0
 ; Learnset
 	db 51, BLIZZARD
-	db 55, AGILITY
+	db 55, MIST
 	db 60, WHIRLWIND
 	db 0
 
@@ -1242,7 +1242,7 @@ ZapdosEvosMoves:
 	db 0
 ; Learnset
 	db 51, THUNDER
-	db 55, AGILITY
+	db 55, CONFUSE_RAY
 	db 60, SPIKE_CANNON
 	db 0
 
