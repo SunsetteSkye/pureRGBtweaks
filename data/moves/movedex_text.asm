@@ -1048,7 +1048,7 @@ _NightShadeDexEntry::
 	next "engulfs the foe,"
 	next "scaring them.@"
 
-	text_jump _Generic10PercentParalysisText
+	text_jump _Generic30PercentParalysisText
 
 _MimicDexEntry::
 	text "The <user> mimics"
