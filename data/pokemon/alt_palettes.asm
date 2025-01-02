@@ -85,7 +85,7 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_CYANMON   ; SLOWBRO
 	db PAL_BLACKMON   ; MAGNEMITE
 	db PAL_BLACKMON   ; MAGNETON
-	db PAL_YELLOWMON  ; FARFETCHD
+	db PAL_GREYMON  ; FARFETCHD
 	db PAL_YELLOWMON  ; DODUO
 	db PAL_REDMON  ; DODRIO
 	db PAL_WHITEMON   ; SEEL
