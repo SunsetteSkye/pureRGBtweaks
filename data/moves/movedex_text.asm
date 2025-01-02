@@ -174,7 +174,7 @@ _GustDexEntry::
 	next "of wind towards"
 	next "the <opponent>.@"
 
-	text_jump _GenericNoAdditionalEffectText
+	text_jump _Generic33PercentLowerSpeedText
 
 _WingAttackDexEntry::
 	text "Strikes and slaps"
