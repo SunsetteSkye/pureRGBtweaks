@@ -39,6 +39,7 @@
 	SUBSTITUTE,\
 	CUT,\
 	FLY,\
+	SURF,\
 	STRENGTH
 	; end
 
