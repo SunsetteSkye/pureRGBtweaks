@@ -113,7 +113,7 @@ Moves:
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 30 ; priority move
 	move RAGE,         ATTACK_UP_SIDE_EFFECT,       60, DRAGON,       100, 20
 	move TELEPORT,     TELEPORT_EFFECT,              0, PSYCHIC_TYPE, 100, 20
-	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        65, GHOST,        100, 20  
+	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,       100, GHOST,        100, 10  
 	move MIMIC,        MIMIC_EFFECT,                 0, NORMAL,       100, 10 ; now uses the mimic'd attack the same turn it's learned
 	move SCREECH,      DEFENSE_DOWN2_EFFECT,         0, NORMAL,        85, 40
 	move DOUBLE_TEAM,  EVASION_UP1_EFFECT,           0, NORMAL,       100, 15
@@ -134,7 +134,7 @@ Moves:
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 10 ; priority move, always uses the previously used enemy move without restrictions
 	move SELFDESTRUCT, EXPLODE_RECOIL_EFFECT,      140, FIRE,         100,  5 ; high recoil normally, original instant defeat effect and 250 power / half defense at low health.
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, DRAGON,       100, 10
-	move LICK,         PARALYZE_SIDE_EFFECT1,       35, GHOST,        100, 30
+	move LICK,         PARALYZE_SIDE_EFFECT1,       60, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         40, POISON,       100, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         90, POISON,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20
