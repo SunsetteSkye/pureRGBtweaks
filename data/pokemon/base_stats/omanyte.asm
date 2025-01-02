@@ -1,6 +1,6 @@
 	db DEX_OMANYTE ; pokedex id
 
-	db  35,  50, 125,  35,  115
+	db  35,  40, 125,  45,  115
 	;   hp  atk  def  spd  spc
 
 	db ROCK, WATER ; type
