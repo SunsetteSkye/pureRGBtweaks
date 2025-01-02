@@ -541,6 +541,11 @@ MewEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, CONFUSION
+	db 20, MIMIC
+	db 30, HEADBUTT
+	db 40, PSYCHIC_M
+	db 50, NIGHT_SHADE
 	db 51, TRANSFORM
 	db 55, MEGA_PUNCH
 	db 59, METRONOME
