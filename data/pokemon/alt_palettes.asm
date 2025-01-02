@@ -9,9 +9,9 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_BLACKMON    ; CHARMANDER
 	db PAL_BLACKMON    ; CHARMELEON
 	db PAL_BLACKMON    ; CHARIZARD
-	db PAL_BLUEMON   ; SQUIRTLE
-	db PAL_CYANMON   ; WARTORTLE
-	db PAL_CYANMON   ; BLASTOISE
+	db PAL_GREENMON   ; SQUIRTLE
+	db PAL_GREENMON   ; WARTORTLE
+	db PAL_GREENMON   ; BLASTOISE
 	db PAL_BLUEMON  ; CATERPIE
 	db PAL_BLUEMON  ; METAPOD
 	db PAL_0F   ; BUTTERFREE
@@ -62,9 +62,9 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_WHITEMON  ; PRIMEAPE
 	db PAL_REDBAR    ; GROWLITHE
 	db PAL_REDBAR    ; ARCANINE
-	db PAL_GREYMON   ; POLIWAG
-	db PAL_GREYMON   ; POLIWHIRL
-	db PAL_GREYMON   ; POLIWRATH
+	db PAL_GREENMON   ; POLIWAG
+	db PAL_GREENMON   ; POLIWHIRL
+	db PAL_GREENMON   ; POLIWRATH
 	db PAL_MEWMON ; ABRA
 	db PAL_MEWMON ; KADABRA
 	db PAL_MEWMON ; ALAKAZAM
