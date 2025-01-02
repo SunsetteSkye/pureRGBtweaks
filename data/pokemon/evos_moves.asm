@@ -430,7 +430,7 @@ GengarEvosMoves:
 ; Learnset
 	db 21, HYPNOSIS
 	db 24, MEGA_DRAIN
-	db 29, BARRAGE
+	db 29, NIGHT_SHADE
 	db 33, DREAM_EATER
 	db 41, SLAM ; FILTHY SLAM
 	db 46, ICE_PUNCH
@@ -598,7 +598,7 @@ GastlyEvosMoves:
 ; Learnset
 	db 21, HYPNOSIS
 	db 24, MEGA_DRAIN
-	db 29, BARRAGE
+	db 29, NIGHT_SHADE
 	db 33, DREAM_EATER
 	db 41, SLAM ; FILTHY SLAM
 	db 57, LOVELY_KISS
@@ -1289,9 +1289,9 @@ VulpixEvosMoves:
 	db 9, LICK
 	db 12, DISABLE
 	db 16, QUICK_ATTACK
-	db 21, NIGHT_SHADE
+	db 21, KINESIS ; FIREWALL
 	db 23, CONFUSE_RAY
-	db 28, BARRAGE
+	db 28, NIGHT_SHADE
 	db 35, FLAMETHROWER
 	db 44, AMNESIA
 	db 50, PSYCHIC_M
@@ -1306,9 +1306,9 @@ NinetalesEvosMoves:
 	db 9, LICK
 	db 12, DISABLE
 	db 16, QUICK_ATTACK
-	db 21, NIGHT_SHADE
+	db 21, KINESIS ; FIREWALL
 	db 23, CONFUSE_RAY
-	db 28, BARRAGE
+	db 28, NIGHT_SHADE
 	db 35, FLAMETHROWER
 	db 44, AMNESIA
 	db 50, PSYCHIC_M
@@ -2100,7 +2100,7 @@ HaunterEvosMoves:
 ; Learnset
 	db 21, HYPNOSIS
 	db 24, MEGA_DRAIN
-	db 29, BARRAGE
+	db 29, NIGHT_SHADE
 	db 33, DREAM_EATER
 	db 41, SLAM ; FILTHY SLAM
 	db 46, ICE_PUNCH
