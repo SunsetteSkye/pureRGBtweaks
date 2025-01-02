@@ -28,7 +28,7 @@ Moves:
 	move RAZOR_WIND,   HEAL_EFFECT,                  0, FLYING,       100, 10 ; -> ROOST
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, FIRE,         100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        90, BUG,          100, 30
-	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
+	move GUST,         SPEED_DOWN_SIDE_EFFECT,      60, FLYING,       100, 20
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 35 ; priority move
 	move WHIRLWIND,    CONFUSION_BIG_SIDE_EFFECT,  110, FLYING,       100, 10
 	move FLY,          FLY_EFFECT,                  90, FLYING,       100, 15
@@ -110,7 +110,7 @@ Moves:
 	move HYPNOSIS,     SLEEP_EFFECT,                 0, PSYCHIC_TYPE,  60, 20
 	move MEDITATE,     ATTACK_SPECIAL_SPEED_UP1,     0, PSYCHIC_TYPE, 100, 15 
 	move AGILITY,      SPEED_UP2_EFFECT,             0, PSYCHIC_TYPE, 100, 30
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 30 ; priority move
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        60, NORMAL,       100, 30 ; priority move
 	move RAGE,         ATTACK_UP_SIDE_EFFECT,       60, DRAGON,       100, 20
 	move TELEPORT,     TELEPORT_EFFECT,              0, PSYCHIC_TYPE, 100, 20
 	move NIGHT_SHADE,  PARALYZE_SIDE_EFFECT2,       85, GHOST,        100, 15  
