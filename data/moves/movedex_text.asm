@@ -895,7 +895,7 @@ _ThunderDexEntry::
 	bage "titanic lightning"
 	next "bolt on the foe.@"
 
-	text_jump _Generic10PercentParalysisText
+	text_jump _Generic30PercentParalysisText
 
 _RockThrowDexEntry::
 	text "Rocks are dropped"
