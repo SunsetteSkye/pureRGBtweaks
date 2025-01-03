@@ -5,7 +5,7 @@ ViridianForestWildMons:
 	db  3, WEEDLE
 	db  5, CATERPIE
 	db  4, VENONAT
-	db  6, PIKACHU
+	db  6, PIDGEOTTO
 	db  5, VENONAT
 	db  3, PIKACHU
 	db  3, PIKACHU
