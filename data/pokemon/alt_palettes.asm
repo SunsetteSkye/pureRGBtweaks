@@ -115,7 +115,7 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_GREENMON ; WEEZING
 	db PAL_GREENMON   ; RHYHORN
 	db PAL_GREENMON   ; RHYDON
-	db PAL_BLUEGREENMON   ; CHANSEY
+	db PAL_YELLOWMON   ; CHANSEY
 	db PAL_GREENMON   ; TANGELA
 	db PAL_GREYMON  ; KANGASKHAN
 	db PAL_0F   ; HORSEA
@@ -134,7 +134,7 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_YELLOWMON    ; MAGIKARP
 	db PAL_REDMON   ; GYARADOS
 	db PAL_PINKMON   ; LAPRAS
-	db PAL_CYANMON   ; DITTO
+	db PAL_BLUEGREENMON   ; DITTO
 	db PAL_WHITEMON  ; EEVEE
 	db PAL_0F   ; VAPOREON
 	db PAL_BLACKMON ; JOLTEON

@@ -1,9 +1,9 @@
 	db DEX_MANKEY ; pokedex id
 
-	db  40,  80,  35,  70,  35
+	db  40,  80,  35,  70,  70
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, NORMAL ; type
 	db 190 ; catch rate
 	db 74 ; base exp
 
