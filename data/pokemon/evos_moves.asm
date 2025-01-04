@@ -209,6 +209,7 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, ROCK_THROW
 	db 12, BITE
 	db 15, LOW_KICK
 	db 19, HORN_ATTACK
@@ -496,6 +497,7 @@ RhyhornEvosMoves:
 	db EVOLVE_LEVEL, 33, RHYDON
 	db 0
 ; Learnset
+	db 8, ROCK_THROW
 	db 12, BITE
 	db 15, LOW_KICK
 	db 19, HORN_ATTACK
@@ -645,10 +647,10 @@ BlastoiseEvosMoves:
 	db 0
 ; Learnset
 	db 8, BUBBLE
-	db 11, LIGHT_SCREEN
+	db 11, DEFENSE_CURL
 	db 14, WATER_GUN
 	db 19, BITE
-	db 24, GLARE
+	db 24, LOW_KICK
 	db 30, WITHDRAW
 	db 34, COUNTER ; DRAIN PUNCH
 	db 39, SKULL_BASH
@@ -713,15 +715,19 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, BIND
+	db 15, HORN_ATTACK
 	db 17, ROAR
+	db 19, SCREECH
 	db 22, DEFENSE_CURL
 	db 25, RAGE
+	db 27, ROCK_SLIDE
 	db 29, CONSTRICT
 	db 31, DIG
 	db 33, AMNESIA
-	db 39, TAKE_DOWN ; HEAT RUSH
-	db 45, WITHDRAW
+	db 37, TAKE_DOWN ; HEAT RUSH
+	db 39, EARTHQUAKE
+	db 42, SPIKE_CANNON
+	db 45, DEFENSE_CURL
 	db 52, SELFDESTRUCT
 	db 0
 
@@ -750,10 +756,10 @@ PidgeyEvosMoves:
 	db 12, QUICK_ATTACK
 	db 19, WING_ATTACK
 	db 26, SONICBOOM
-	db 28, SHARPEN
+	db 28, GLARE
 	db 32, FURY_ATTACK
-	db 35, GLARE
-	db 41, TAKE_DOWN ; HEAT RUSH
+	db 35, TAKE_DOWN ; HEAT RUSH
+	db 41, WITHDRAW
 	db 48, SKULL_BASH
 	db 54, WHIRLWIND
 	db 60, HYPER_BEAM
@@ -2142,10 +2148,10 @@ PidgeottoEvosMoves:
 	db 12, QUICK_ATTACK
 	db 19, WING_ATTACK
 	db 26, SONICBOOM
-	db 29, SHARPEN
+	db 28, GLARE
 	db 32, FURY_ATTACK
-	db 35, GLARE
-	db 43, SLASH
+	db 35, TAKE_DOWN ; HEAT RUSH
+	db 41, WITHDRAW
 	db 48, SKULL_BASH
 	db 54, WHIRLWIND
 	db 60, HYPER_BEAM
@@ -2160,10 +2166,10 @@ PidgeotEvosMoves:
 	db 12, QUICK_ATTACK
 	db 19, WING_ATTACK
 	db 26, SONICBOOM
-	db 29, SHARPEN
+	db 28, GLARE
 	db 32, FURY_ATTACK
-	db 35, GLARE
-	db 43, SLASH
+	db 35, TAKE_DOWN ; HEAT RUSH
+	db 41, WITHDRAW
 	db 48, SKULL_BASH
 	db 54, WHIRLWIND
 	db 60, HYPER_BEAM
@@ -2313,7 +2319,7 @@ RattataEvosMoves:
 	db 12, DOUBLE_TEAM
 	db 14, FURY_SWIPES ; DUST CLAW
 	db 17, HYPER_FANG
-	db 21, DIG
+	db 20, DIG
 	db 23, FOCUS_ENERGY
 	db 26, WITHDRAW
 	db 31, SKULL_BASH
@@ -2455,10 +2461,10 @@ SquirtleEvosMoves:
 	db 0
 ; Learnset
 	db 8, BUBBLE
-	db 11, LIGHT_SCREEN
+	db 11, DEFENSE_CURL
 	db 14, WATER_GUN
 	db 18, BITE
-	db 23, GLARE
+	db 23, LOW_KICK
 	db 28, WITHDRAW
 	db 33, COUNTER ; DRAIN PUNCH
 	db 35, SKULL_BASH
@@ -2488,10 +2494,10 @@ WartortleEvosMoves:
 	db 0
 ; Learnset
 	db 8, BUBBLE
-	db 11, LIGHT_SCREEN
+	db 11, DEFENSE_CURL
 	db 14, WATER_GUN
 	db 18, BITE
-	db 23, GLARE
+	db 23, LOW_KICK
 	db 28, WITHDRAW
 	db 33, COUNTER ; DRAIN PUNCH
 	db 35, SKULL_BASH
@@ -2621,7 +2627,7 @@ HardenedOnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, BIND
+	db 15, HORN_ATTACK
 	db 17, ROAR
 	db 19, SCREECH
 	db 22, DEFENSE_CURL
@@ -2633,6 +2639,6 @@ HardenedOnixEvosMoves:
 	db 37, TAKE_DOWN ; HEAT RUSH
 	db 39, EARTHQUAKE
 	db 42, SPIKE_CANNON
-	db 45, WITHDRAW
+	db 45, DEFENSE_CURL
 	db 52, SELFDESTRUCT
 	db 0

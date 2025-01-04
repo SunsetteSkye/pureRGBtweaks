@@ -29,7 +29,7 @@ Moves:
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, FIRE,         100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        90, BUG,          100, 30
 	move GUST,         SPEED_DOWN_SIDE_EFFECT,      40, FLYING,       100, 35
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 35 ; priority move
+	move WING_ATTACK,  FLINCH_SIDE_EFFECT2,         50, FLYING,       100, 35 ; priority move
 	move WHIRLWIND,    CONFUSION_BIG_SIDE_EFFECT,  110, FLYING,       100, 10
 	move FLY,          FLY_EFFECT,                  90, FLYING,       100, 15
 	move BIND,         TRAPPING_EFFECT,             25, ROCK,          75, 25
@@ -160,7 +160,7 @@ Moves:
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      25, WATER,        100, 30
 	move DIZZY_PUNCH,  CONFUSION_BIG_SIDE_EFFECT,   90, FIGHTING,     100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
-	move FLASH,        FLINCH_SIDE_EFFECT1,         60, ELECTRIC,     100, 15 ; priority move
+	move FLASH,        FLINCH_SIDE_EFFECT2,         50, ELECTRIC,     100, 15 ; priority move
 	move PSYWAVE,      SPECIAL_DOWN_SIDE_EFFECT,    40, PSYCHIC_TYPE, 100, 20
 	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,       100, 40
 	move ACID_ARMOR,   ACID_ARMOR_EFFECT,            0, POISON,       100, 20 ; combined reflect and light screen effects in one move
@@ -169,8 +169,8 @@ Moves:
 	move FURY_SWIPES,  NO_ADDITIONAL_EFFECT,        40, GROUND,       100, 15 ; -> DUST CLAW
 	move BONEMERANG,   BONEMERANG_EFFECT,           60, BONEMERANG_TYPE, 95, 10 ; hits twice, 30% chance to lower speed of opponent, can hit flying opponents
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC_TYPE, 100, 10
-	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT1,         80, ROCK,         100, 10
-	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
+	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT2,         80, ROCK,         100, 10
+	move HYPER_FANG,   FLINCH_SIDE_EFFECT2,         80, NORMAL,        90, 15
 	move SHARPEN,      ATTACK_ACCURACY_UP1_EFFECT,   0, NORMAL,       100, 30 
 	move CONVERSION,   CONVERSION_EFFECT,            0, TRI,          100,  5 ; Two modes, defense mode halves damage. Attack mode uses an attack that is super effective on the opponent.
 	move TRI_ATTACK,   TRI_ATTACK_EFFECT,           90, TRI,          100, 10 ; 10% chance each of freeze/burn/paralysis, uses SPECIAL stat, NORMAL pokemon get STAB.

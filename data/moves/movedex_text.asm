@@ -181,7 +181,9 @@ _WingAttackDexEntry::
 	next "the foe with"
 	next "wings.@"
 
-	text_jump _GenericAlwaysGoesFirstText
+	text_call _GenericAlwaysGoesFirstText
+	text_end
+	text_jump _Generic30PercentFlinchText
 
 _WhirlwindDexEntry::
 	text "A massive tornado"
@@ -1592,7 +1594,7 @@ _FlashDexEntry::
 
 	text_call _GenericAlwaysGoesFirstText
 	text_end
-	text_jump _Generic10PercentFlinchText
+	text_jump _Generic30PercentFlinchText
 
 _PsywaveDexEntry::
 	text "A small psychic"
@@ -1688,13 +1690,13 @@ _RockSlideDexEntry::
 	next "rocks rain on"
 	next "top of the foe.@"
 
-	text_jump _Generic10PercentFlinchText
+	text_jump _Generic30PercentFlinchText
 
 _HyperFangDexEntry::
 	text "Giant teeth gnash"
 	next "the <opponent>.@"
 
-	text_jump _Generic10PercentFlinchText
+	text_jump _Generic30PercentFlinchText
 
 _SharpenDexEntry::
 	text "The <user> sharpens"
