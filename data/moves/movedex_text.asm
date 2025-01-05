@@ -159,7 +159,7 @@ _CutDexEntry::
 	next "with a claw, barb"
 	next "tooth, wing, etc.@"
 
-	text_call _GenericNoAdditionalEffectText
+	text_call _GenericOftenLandsCriticalHitsText
 
 	bage "Usable outside"
 	next "battle to cut down"
@@ -413,7 +413,9 @@ _PinMissileDexEntry::
 	next "pins or needles"
 	next "flurry the foe.@"
 	
-	text_jump _Generic2To5HitsText
+	text_call _Generic2To5HitsText
+	text_end
+	text_jump _GenericAlwaysGoesFirstText
 
 _LeerDexEntry::
 	text "The <user> glowers"

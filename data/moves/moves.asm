@@ -27,7 +27,7 @@ Moves:
 	move GUILLOTINE,   OHKO_EFFECT,                  1, BUG,           30,  5
 	move RAZOR_WIND,   HEAL_EFFECT,                  0, FLYING,       100, 10 ; -> ROOST
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, FIRE,         100, 30
-	move CUT,          NO_ADDITIONAL_EFFECT,        90, BUG,          100, 30
+	move CUT,          NO_ADDITIONAL_EFFECT,        70, BUG,          100, 20 ; high critical hit ratio
 	move GUST,         SPEED_DOWN_SIDE_EFFECT,      40, FLYING,       100, 35
 	move WING_ATTACK,  FLINCH_SIDE_EFFECT2,         50, FLYING,       100, 35 ; priority move
 	move WHIRLWIND,    CONFUSION_BIG_SIDE_EFFECT,  110, FLYING,       100, 10
@@ -54,7 +54,7 @@ Moves:
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move POISON_STING, POISON_SIDE_EFFECT2,         15, POISON,       100, 35
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            50, BUG,          100, 20 ; hits twice, 20% chance of poison
-	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, BUG,          100, 20
+	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, BUG,          100, 20 ; priority move
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, NORMAL,       100, 40
@@ -153,7 +153,7 @@ Moves:
 	move DREAM_EATER,  DREAM_EATER_EFFECT,         100, GHOST,        100, 15
 	move POISON_GAS,   POISON_SIDE_EFFECT1,         60, POISON,       100, 20 ; high critical hit ratio
 	move BARRAGE,      ATTACK_TWICE_EFFECT,         40, GHOST,        100, 20 
-	move LEECH_LIFE,   DRAIN_HP_EFFECT,             70, BUG,          100, 15
+	move LEECH_LIFE,   DRAIN_HP_EFFECT,             75, BUG,          100, 15
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, PSYCHIC_TYPE,  75, 10
 	move SKY_ATTACK,   RECOIL_EFFECT,          	   130, FLYING,       100, 10
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 10 ; priority move

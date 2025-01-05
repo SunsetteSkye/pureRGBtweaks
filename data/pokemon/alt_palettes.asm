@@ -41,8 +41,8 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_0F   ; CLEFABLE
 	db PAL_WHITEMON    ; VULPIX
 	db PAL_WHITEMON ; NINETALES
-	db PAL_YELLOWMON   ; JIGGLYPUFF
-	db PAL_YELLOWMON   ; WIGGLYTUFF
+	db PAL_WHITEMON   ; JIGGLYPUFF
+	db PAL_WHITEMON   ; WIGGLYTUFF
 	db PAL_BLACKMON   ; ZUBAT
 	db PAL_BLACKMON   ; GOLBAT
 	db PAL_REDMON  ; ODDISH
