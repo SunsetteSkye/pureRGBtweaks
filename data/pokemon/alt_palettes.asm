@@ -21,14 +21,14 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_REDBAR  ; PIDGEY
 	db PAL_REDBAR  ; PIDGEOTTO
 	db PAL_REDBAR  ; PIDGEOT
-	db PAL_BROWNMON ; RATTATA
-	db PAL_BROWNMON ; RATICATE
+	db PAL_GREYMON ; RATTATA
+	db PAL_GREYMON ; RATICATE
 	db PAL_BLACKMON  ; SPEAROW
 	db PAL_BLACKMON  ; FEAROW
 	db PAL_BLACKMON ; EKANS
 	db PAL_BLACKMON ; ARBOK
 	db PAL_BLUEMON ; PIKACHU
-	db PAL_PINKMON ; RAICHU
+	db PAL_BLUEMON ; RAICHU
 	db PAL_GREYMON  ; SANDSHREW
 	db PAL_BLACKMON  ; SANDSLASH
 	db PAL_PURPLEMON ; NIDORAN_F
@@ -41,8 +41,8 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_0F   ; CLEFABLE
 	db PAL_WHITEMON    ; VULPIX
 	db PAL_WHITEMON ; NINETALES
-	db PAL_WHITEMON   ; JIGGLYPUFF
-	db PAL_WHITEMON   ; WIGGLYTUFF
+	db PAL_MEWMON   ; JIGGLYPUFF
+	db PAL_MEWMON   ; WIGGLYTUFF
 	db PAL_BLACKMON   ; ZUBAT
 	db PAL_BLACKMON   ; GOLBAT
 	db PAL_REDMON  ; ODDISH
@@ -50,7 +50,7 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_0F    ; VILEPLUME
 	db PAL_BLUEMON  ; PARAS
 	db PAL_BLUEMON  ; PARASECT
-	db PAL_REDMON  ; VENONAT
+	db PAL_YELLOWMON  ; VENONAT
 	db PAL_REDMON  ; VENOMOTH
 	db PAL_PINKMON  ; DIGLETT
 	db PAL_PINKMON  ; DUGTRIO
@@ -149,8 +149,8 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_0F   ; ARTICUNO
 	db PAL_WHITEMON ; ZAPDOS
 	db PAL_MEWMON    ; MOLTRES
-	db PAL_WHITEMON   ; DRATINI
-	db PAL_WHITEMON   ; DRAGONAIR
+	db PAL_PINKMON   ; DRATINI
+	db PAL_PINKMON   ; DRAGONAIR
 	db PAL_GREENBAR    ; DRAGONITE
 	db PAL_PURPLEMON ; MEWTWO
 	db PAL_PINKMON   ; MEW

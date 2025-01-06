@@ -560,7 +560,7 @@ GyaradosEvosMoves:
 ; Learnset
 	db 20, BITE
 	db 25, DRAGON_RAGE
-	db 32, BODY_SLAM
+	db 32, FURY_ATTACK
 	db 41, HYDRO_PUMP
 	db 52, HYPER_BEAM
 	db 0
@@ -649,9 +649,9 @@ BlastoiseEvosMoves:
 	db 8, BUBBLE
 	db 11, DEFENSE_CURL
 	db 14, WATER_GUN
-	db 19, BITE
-	db 24, LOW_KICK
-	db 30, WITHDRAW
+	db 18, BITE
+	db 23, WITHDRAW
+	db 28, RAGE
 	db 34, COUNTER ; DRAIN PUNCH
 	db 39, SKULL_BASH
 	db 45, HYDRO_PUMP
@@ -1230,7 +1230,7 @@ MoltresEvosMoves:
 	db 0
 ; Learnset
 	db 51, FIRE_BLAST
-	db 55, GROWTH
+	db 55, DEFENSE_CURL
 	db 60, WHIRLWIND
 	db 0
 
@@ -2317,14 +2317,14 @@ RattataEvosMoves:
 ; Learnset
 	db 7, QUICK_ATTACK
 	db 12, DOUBLE_TEAM
-	db 14, FURY_SWIPES ; DUST CLAW
+	db 14, DOUBLE_KICK
 	db 17, HYPER_FANG
 	db 20, DIG
 	db 23, FOCUS_ENERGY
 	db 26, WITHDRAW
 	db 31, SKULL_BASH
 	db 34, SUPER_FANG
-	db 40, FISSURE
+	db 40, MEGA_KICK
 	db 0
 
 RaticateEvosMoves:
@@ -2332,14 +2332,14 @@ RaticateEvosMoves:
 	db 0
 ; Learnset
 	db 12, DOUBLE_TEAM
-	db 14, FURY_SWIPES ; DUST CLAW
+	db 14, DOUBLE_KICK
 	db 17, HYPER_FANG
 	db 20, DIG
 	db 24, FOCUS_ENERGY
 	db 27, WITHDRAW
 	db 31, SKULL_BASH
 	db 37, SUPER_FANG
-	db 44, FISSURE
+	db 44, MEGA_KICK
 	db 0
 
 NidorinoEvosMoves:
@@ -2448,9 +2448,9 @@ CharmanderEvosMoves:
 	db 12, ROAR
 	db 15, SMOKESCREEN
 	db 18, TAKE_DOWN ; HEAT RUSH
-	db 23, RAGE
-	db 26, DRAGON_RAGE
-	db 30, SLASH
+	db 23, GLARE
+	db 26, SLASH
+	db 30, DRAGON_RAGE
 	db 38, FLAMETHROWER
 	db 46, HYPER_BEAM
 	db 0
@@ -2464,8 +2464,8 @@ SquirtleEvosMoves:
 	db 11, DEFENSE_CURL
 	db 14, WATER_GUN
 	db 18, BITE
-	db 23, LOW_KICK
-	db 28, WITHDRAW
+	db 23, WITHDRAW
+	db 28, RAGE
 	db 33, COUNTER ; DRAIN PUNCH
 	db 35, SKULL_BASH
 	db 42, HYDRO_PUMP
@@ -2481,9 +2481,9 @@ CharmeleonEvosMoves:
 	db 13, ROAR
 	db 15, SMOKESCREEN
 	db 19, TAKE_DOWN ; HEAT RUSH
-	db 24, RAGE
-	db 28, DRAGON_RAGE
-	db 31, SLASH
+	db 23, GLARE
+	db 26, SLASH
+	db 30, DRAGON_RAGE
 	db 39, FLAMETHROWER
 	db 46, HYPER_BEAM
 	db 0
@@ -2497,8 +2497,8 @@ WartortleEvosMoves:
 	db 11, DEFENSE_CURL
 	db 14, WATER_GUN
 	db 18, BITE
-	db 23, LOW_KICK
-	db 28, WITHDRAW
+	db 23, WITHDRAW
+	db 28, RAGE
 	db 33, COUNTER ; DRAIN PUNCH
 	db 35, SKULL_BASH
 	db 42, HYDRO_PUMP
@@ -2513,9 +2513,9 @@ CharizardEvosMoves:
 	db 13, ROAR
 	db 15, SMOKESCREEN
 	db 19, TAKE_DOWN ; HEAT_RUSH
-	db 24, RAGE
-	db 28, DRAGON_RAGE
-	db 31, SLASH
+	db 23, GLARE
+	db 26, SLASH
+	db 30, DRAGON_RAGE
 	db 41, FLAMETHROWER
 	db 48, HYPER_BEAM
 	db 0

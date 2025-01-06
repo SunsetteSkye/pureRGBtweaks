@@ -571,7 +571,7 @@ _HydroPumpDexEntry::
 
 	bage "at the <opponent>.@"
 
-	text_jump _GenericNoAdditionalEffectText
+	text_jump _Generic33PercentLowerSpeedText
 
 
 _SurfDexEntry::
@@ -579,7 +579,7 @@ _SurfDexEntry::
 	next "is flooded with"
 	next "deep water.@"
 
-	text_call _GenericNoAdditionalEffectText
+	text_call _Generic33PercentLowerSpeedText
 
 	bage "Usable outside"
 	next "battle to travel"
@@ -725,7 +725,7 @@ _StrengthDexEntry::
 	next "with a massive"
 	next "built up power.@"
 
-	text_call _GenericNoAdditionalEffectText
+	text_call _Generic33PercentLowerSpeedText
 
 	bage "Usable outside of"
 	next "battle to push"
@@ -853,7 +853,7 @@ _DragonRageDexEntry::
 	next "by a shockwave of"
 	next "draconic rage.@"
 
-	text_jump _GenericNoAdditionalEffectText
+	text_jump _Generic10PercentBurnText
 
 _FireSpinDexEntry::
 	text "A swirling pillar"

@@ -112,5 +112,7 @@ TypeEffects:
 	db ELECTRIC,     FIRE,         NOT_VERY_EFFECTIVE
 	db ICE,	         NORMAL,       NOT_VERY_EFFECTIVE
 	db DRAGON,       FIGHTING, 	   NOT_VERY_EFFECTIVE
+	db ROCK,         WATER,        NOT_VERY_EFFECTIVE
+	db FIGHTING,     WATER,        NOT_VERY_EFFECTIVE
 	db -1 ; end
 
