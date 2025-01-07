@@ -74,7 +74,7 @@ TypeEffects:
 	db ROCK,         GROUND,       NOT_VERY_EFFECTIVE
 	db ROCK,         FLYING,       SUPER_EFFECTIVE
 	db ROCK,         BUG,          SUPER_EFFECTIVE
-	db ROCK,         ICE,          SUPER_EFFECTIVE
+	db ROCK,         ICE,          NOT_VERY_EFFECTIVE
 	db GHOST,        NORMAL,       NO_EFFECT
 	db GHOST,        PSYCHIC_TYPE, SUPER_EFFECTIVE ; PureRGBnote: CHANGED: ghost was made super effective against psychic by default.
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
@@ -107,12 +107,12 @@ TypeEffects:
 	db BONEMERANG_TYPE,   POISON,       SUPER_EFFECTIVE
 	db WATER,        MAGMA,        NO_EFFECT
 	db FIRE,         MAGMA,        NO_EFFECT
-	db FIGHTING,     MAGMA,		   NOT_VERY_EFFECTIVE
 	db ELECTRIC,     MAGMA,        NO_EFFECT
 	db ELECTRIC,     FIRE,         NOT_VERY_EFFECTIVE
 	db ICE,	         NORMAL,       NOT_VERY_EFFECTIVE
-	db DRAGON,       FIGHTING, 	   NOT_VERY_EFFECTIVE
-	db ROCK,         WATER,        NOT_VERY_EFFECTIVE
-	db FIGHTING,     WATER,        NOT_VERY_EFFECTIVE
+	db GROUND,       FIGHTING,     NOT_VERY_EFFECTIVE
+	db DRAGON,       ICE, 	       NOT_VERY_EFFECTIVE
+	db DRAGON,       FIGHTING,     NOT_VERY_EFFECTIVE
+	db GHOST,        ICE,          NOT_VERY_EFFECTIVE
 	db -1 ; end
 

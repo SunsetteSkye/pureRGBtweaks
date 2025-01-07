@@ -681,11 +681,11 @@ TangelaEvosMoves:
 	db 18, CONSTRICT ; STATIC_SNAG
 	db 23, STUN_SPORE
 	db 26, MEGA_DRAIN
-	db 30, AMNESIA
+	db 30, NIGHT_SHADE
 	db 34, RAZOR_LEAF
-	db 44, SPORE
+	db 44, SLEEP_POWDER
 	db 49, DREAM_EATER
-	db 54, SELFDESTRUCT
+	db 54, GROWTH
 	db 0
 
 NothingEvosMoves:
@@ -2280,34 +2280,34 @@ PonytaEvosMoves:
 	db EVOLVE_LEVEL, 30, RAPIDASH
 	db 0
 ; Learnset
-	db 9, TAIL_WHIP
+	db 9, CONFUSION
 	db 18, KINESIS ; FIREWALL
 	db 21, STOMP
 	db 25, FOCUS_ENERGY
-	db 28, HEADBUTT
+	db 28, PSYBEAM
 	db 33, TAKE_DOWN ; HEAT RUSH
 	db 36, SWIFT
 	db 40, FURY_ATTACK
 	db 45, SKULL_BASH
 	db 49, MEGA_KICK
-	db 54, SOLARBEAM
+	db 54, PSYCHIC_M
 	db 0
 
 RapidashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, TAIL_WHIP
+	db 9, CONFUSION
 	db 18, KINESIS ; FIREWALL
 	db 21, STOMP
 	db 25, FOCUS_ENERGY
-	db 28, HEADBUTT
+	db 28, PSYBEAM
 	db 33, TAKE_DOWN ; HEAT RUSH
 	db 36, SWIFT
 	db 40, FURY_ATTACK
 	db 45, SKULL_BASH
 	db 49, MEGA_KICK
-	db 54, SOLARBEAM
+	db 54, PSYCHIC_M
 	db 0
 
 RattataEvosMoves:

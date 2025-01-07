@@ -3,7 +3,7 @@
 	db  65, 100,  70, 105,  90
 	;   hp  atk  def  spd  spc
 
-	db FIRE, NORMAL ; type
+	db FIRE, PSYCHIC ; type
 	db 60 ; catch rate
 	db 192 ; base exp
 
@@ -25,6 +25,7 @@
 	SOLARBEAM,\
 	DRAGON_RAGE,\
 	EARTHQUAKE,\
+	PSYCHIC_M,\
 	KINESIS,\ ; FIREWALL
 	SWORDS_DANCE,\
 	REFLECT,\
@@ -35,6 +36,8 @@
 	FLAMETHROWER,\
 	SLAM,\ ; FILTHY SLAM
 	LIGHT_SCREEN,\
+	PSYBEAM,\
+	ROCK_SLIDE,\
 	GLARE,\
 	SUBSTITUTE,\
 	STRENGTH,\

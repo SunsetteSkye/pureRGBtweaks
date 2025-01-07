@@ -795,7 +795,9 @@ _SolarbeamDexEntry::
 	next "into a powerful"
 	next "searing beam.@"
 
-	text_jump _Generic10PercentBurnText
+	bage "30% chance to"
+	next "burn the foe"
+	dex
 
 _PoisonPowderDexEntry::
 	text "A poisonous dust"
@@ -853,7 +855,9 @@ _DragonRageDexEntry::
 	next "by a shockwave of"
 	next "draconic rage.@"
 
-	text_jump _Generic10PercentBurnText
+	bage "30% chance to"
+	next "burn the foe"
+	dex
 
 _FireSpinDexEntry::
 	text "A swirling pillar"

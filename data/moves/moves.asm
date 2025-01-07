@@ -50,7 +50,7 @@ Moves:
 	move WRAP,         TRAPPING_EFFECT,             22, NORMAL,        75, 25
 	move TAKE_DOWN,    BURN_SIDE_EFFECT2,           80, FIRE,         100, 20 ; -> HEAT RUSH
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, NORMAL,       100, 20
-	move DOUBLE_EDGE,  RECOIL_EFFECT,          	   120, NORMAL,       100, 10
+	move DOUBLE_EDGE,  RECOIL_EFFECT,          	   120, NORMAL,       100, 15
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move POISON_STING, POISON_SIDE_EFFECT2,         15, POISON,       100, 35
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            50, BUG,          100, 20 ; hits twice, 20% chance of poison
@@ -88,13 +88,13 @@ Moves:
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,        100, 10
 	move GROWTH,       GROWTH_EFFECT,                0, GRASS,        100, 10 
 	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,        100, 25 ; high crit ratio
-	move SOLARBEAM,    BURN_SIDE_EFFECT1,          110, GRASS,        100, 10
+	move SOLARBEAM,    BURN_SIDE_EFFECT2,          110, GRASS,        100, 10
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,        75, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         75, 30
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         75, 15
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,  120, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN1_EFFECT,           0, BUG,           95, 40
-	move DRAGON_RAGE,  BURN_SIDE_EFFECT1,	        80, DRAGON,       100, 20
+	move DRAGON_RAGE,  BURN_SIDE_EFFECT2,	        80, DRAGON,       100, 20
 	move FIRE_SPIN,    TRAPPING_EFFECT,             25, FIRE,          75, 25
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15

@@ -68,9 +68,9 @@ AltMonsterPalettes: ; pokemon have alternate palettes depending on where you enc
 	db PAL_REDMON ; ABRA
 	db PAL_REDMON ; KADABRA
 	db PAL_REDMON ; ALAKAZAM
-	db PAL_REDMON   ; MACHOP
-	db PAL_REDMON   ; MACHOKE
-	db PAL_REDMON   ; MACHAMP
+	db PAL_GREENMON   ; MACHOP
+	db PAL_GREENMON   ; MACHOKE
+	db PAL_GREENMON   ; MACHAMP
 	db PAL_YELLOWMON    ; BELLSPROUT
 	db PAL_YELLOWMON    ; WEEPINBELL
 	db PAL_YELLOWMON    ; VICTREEBEL
