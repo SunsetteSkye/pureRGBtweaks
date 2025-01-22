@@ -6,7 +6,7 @@ A mostly graphical edit of PureRGB for my own purposes.
 
 Other changes include some minor QoL for some moves, nerfs to some boosting moves, blatant pidgey favoritism, a new type chart, and monster type changes for Victreebel, Tangela, Vileplume, Rapidash, and Parasect.
 
-[!type chart](screenshots/typechart.png)
+![type chart](screenshots/typechart.png)
 
 # Pokémon PureRGB (PureRed, PureGreen, PureBlue)
 
